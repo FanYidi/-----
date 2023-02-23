@@ -12,7 +12,7 @@ int main(){
         int num, score;
         scanf("%d %d", &num, &score); //可以不加空格
         lis[num] += score;
-        //printf("得到了数组内容：%d %d", num, lis[num]); //测试
+        //printf("得到了数组内容：%d %d \n", num, lis[num]); //测试
         if(maxscore < lis[num]){
             maxscore = lis[num];
             maxnum = num;
