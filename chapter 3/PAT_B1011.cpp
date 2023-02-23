@@ -9,7 +9,8 @@ int main(){
         int a,b,c;
         scanf("%d %d %d", &a, &b, &c);
         long long sumab = a + b;
-        printf("Case #%d: %c", i, bool(sumab > c));
+        if(sumab > c) printf("Case #%d: true", i+1);
+        else printf("Case #%d: false", i+1);
     }
     return 0;
 }
