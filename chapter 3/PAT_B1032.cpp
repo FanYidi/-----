@@ -1,3 +1,5 @@
+/*PAT_B1032 挖掘机技术哪家强*/
+
 #include <cstdio>
 
 int main(){

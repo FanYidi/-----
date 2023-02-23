@@ -1,4 +1,4 @@
-/* Callatz: (n*3 + 1)/2 -->1 */
+/* PAT_B1001 3N+1ІВПл*/
 
 #include <cstdio>
 
